@@ -1,3 +1,6 @@
 {
-    "/api/v1/*":"/$1"
+    "/api/v1/*":"/$1",
+    "/users*": "/600/users$1",
+    "/productstoken*":"/664/products$1",
+    "/authoritytoken*":"/640/products$1"
 }

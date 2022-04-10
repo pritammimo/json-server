@@ -5,7 +5,8 @@
       "title": "Product 1",
       "category": "electronics",
       "price": 4000,
-      "description": "This is description about product 1"
+      "description": "This is description about product 1",
+      "userId": 3
     },
     {
       "id": 2,
@@ -79,6 +80,35 @@
       "category": "accessories",
       "price": 8000,
       "description": "This is description about product 11"
+    },
+    {
+      "title": "Product 12",
+      "category": "electronics",
+      "price": 2000,
+      "description": "This is description about product 12",
+      "id": 12
+    },
+    {
+      "title": "Product 13",
+      "category": "electronics",
+      "price": 3500,
+      "description": "This is description about product 13",
+      "id": 13
+    },
+    {
+      "title": "Product 14",
+      "category": "electronics",
+      "price": 2000,
+      "description": "This is description about product 14",
+      "id": 14
+    },
+    {
+      "title": "Product 15",
+      "category": "electronics",
+      "price": 5000,
+      "description": "This is description about product 15",
+      "userId": 3,
+      "id": 15
     }
   ],
   "reviews": [

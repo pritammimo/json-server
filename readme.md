@@ -42,4 +42,18 @@ For SignIn:-
 {
   "email": "test@mail.com",
   "password": "best123"
-}-Pass the data as a body in http://localhost:4000/ signin
+}-Pass the data as a body in http://localhost:4000/signin
+http://localhost:4000/api/v1/productstoken -(Post) 
+ {
+      "title": "Product 15",
+      "category": "electronics",
+      "price": 4000,
+      "description": "This is description about product 13",
+      "userId":3
+    } -send this data as a body
+
+for Login Users Add the products Pass the token as authorization bearer.
+http://localhost:4000/api/v1/users/3 - (Get) For get the User Details by token.
+http://localhost:4000/api/v1/authoritytoken/15 (Delete)-For Delete The Products By Specific User.
+http://localhost:4000/api/v1/authoritytoken/15 (Put) -For Update the specific product by specific user.
+http://localhost:4000/api/v1/authoritytoken/15 (Patch) -for For Update the specific details of a product by specific user
