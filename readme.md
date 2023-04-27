@@ -51,7 +51,10 @@ http://localhost:4000/api/v1/productstoken -(Post)
       "description": "This is description about product 13",
       "userId":3
     } -send this data as a body
-
+  http://localhost:4000/api/v1/users/3  -(Patch) -For Update Password
+{
+      "password": "Cn@#12345"
+}
 for Login Users Add the products Pass the token as authorization bearer.
 http://localhost:4000/api/v1/users/3 - (Get) For get the User Details by token.
 http://localhost:4000/api/v1/authoritytoken/15 (Delete)-For Delete The Products By Specific User.

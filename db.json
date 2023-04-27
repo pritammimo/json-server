@@ -109,15 +109,24 @@
       "email": "admin@yopmail.com",
       "password": "$2a$10$YicVAFpk6vg.IA5qcvw26O.JP4QyUmYOaUv/1MVQHjSFufEKtHne2",
       "role": "admin",
-      "name":"admin",
+      "name": "admin",
       "id": 1
     },
     {
       "email": "user@yopmail.com",
       "password": "$2a$10$YicVAFpk6vg.IA5qcvw26O.JP4QyUmYOaUv/1MVQHjSFufEKtHne2",
       "role": "user",
-      "name":"user",
+      "name": "user",
       "id": 2
+    },
+    {
+      "email": "jotai@yopmail.com",
+      "password": "$2a$10$OKEIrNt903HSN1922w2qX.tcuacZEtp4Ge5m7LOMBWw./O9QL4TIC",
+      "role": "user",
+      "name": "jotai",
+      "address": "Sodepur,Milangarh",
+      "phone": "9876543210",
+      "id": 3
     }
   ]
 }
